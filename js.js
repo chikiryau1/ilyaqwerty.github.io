@@ -17,17 +17,15 @@ l.onmouseout = function(){
 }
 
 s.onmouseover = function(){
-	soc.style.transition = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease, border 0.5s ease";
-	soc.style.background = "#666";
-	soc.style.border = "3px #000 solid";
+	soc.style.transition = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
+	//soc.style.background = "#666";
 	soc.style.width = "140px";
 	soc.style.opacity = "1"
 }
 
 s.onmouseout = function(){
-	soc.style.transition = "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease, border 0.5s ease";
+	soc.style.transition = "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
 	soc.style.background = "transparent";
-	soc.style.border = "3px transparent solid";
 	soc.style.width = "0px";
 	soc.style.opacity = "0"
 }
