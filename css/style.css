@@ -1,6 +1,8 @@
 html{
 	background-color: #999
 }
+
+
 .wrapper{
 	line-height: 16px;
 	position: fixed;
@@ -35,6 +37,7 @@ html{
 }
 #socwrap{
 	cursor: pointer;
+	opacity: 0;
 	float: right;
 	width: 0px;
 	height: 30px;
@@ -42,6 +45,9 @@ html{
 	overflow: hidden;
 	background-color: transparent;
 	white-space: nowrap;
+}
+#socwrap.fa{
+	transition: opacity 0.3s 
 }
 .G{
 	margin-left: 5px;
