@@ -5,13 +5,13 @@ var soc = document.getElementById("socwrap");
 
 
 l.onmouseover = function(){
-	this.style.transition = "width  0.5s  ease-out";
+	this.style.transition = "width  0.2s  ease-out";
 	this.style.background = "#666";
-	this.style.width = "240px";
+	this.style.width = "66px";
 }
 
 l.onmouseout = function(){
-	this.style.transition = "width  0.5s  ease-out";
+	this.style.transition = "width  0.2s  ease-out";
 	this.style.background = "transparent";
 	this.style.width = "30px";
 }
