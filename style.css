@@ -18,7 +18,6 @@ html{
 }
 
 .lang{
-	cursor: pointer;
 	text-transform: uppercase;
 	text-align: center;
 	display: inline-block;
@@ -35,6 +34,7 @@ html{
 	color: inherit;
 }
 #socwrap{
+	cursor: pointer;
 	float: right;
 	width: 0px;
 	height: 30px;

@@ -18,7 +18,7 @@ s.onmouseover = function(){
 	soc.style.transition = "width  0.7s  ease-out";
 	soc.style.background = "#999";
 	soc.style.border = "3px #000 solid";
-	soc.style.width = "150px";
+	soc.style.width = "140px";
 }
 
 s.onmouseout = function(){
