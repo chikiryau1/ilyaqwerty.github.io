@@ -1,22 +1,28 @@
 html{
-	background-color: #999
-}
+	background-color: #999;
 
+}
 
 .wrapper{
 	line-height: 16px;
 	position: fixed;
 	right: 10%;
+	top:80%;
+	display: flex;
+    flex-flow: column wrap;
+
 }
+
 #languages{
+	display: block;
 	cursor: pointer;
-	float: right;
 	margin-top: 13px;
 	width: 30px;
 	height: 30px;
 	border: 3px #000 solid;
 	overflow: hidden;
 	background-color: transparent;
+	float: right;
 }
 
 .lang{
@@ -39,14 +45,13 @@ html{
 	color:#fff;
 	cursor: pointer;
 	opacity: 0;
-	float: right;
 	width: 0px;
 	height: 30px;
 	overflow: hidden;
 	background-color: transparent;
 	white-space: nowrap;
-
 }
+
 #socwrap.fa{
 	transition: opacity 0.3s 
 }
@@ -57,8 +62,33 @@ html{
 .G img{
 	width: 30px;
 }
-#social::after{
+#socwrap::after{
 	content: "";
 	display: block;
 	clear: both
+}
+
+.sound{
+	display: block;
+	width: 33px;
+	height: 33px;
+	display: block;
+	cursor: pointer;
+	float: right;
+	margin-bottom: 16px;
+}
+
+.sound button{
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+	border: none;
+	background-image: url(../img/white_on.svg);
+	background-size: auto 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.sound button:hover{
+	background-image: url(../img/red_on.svg);
 }
