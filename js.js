@@ -30,16 +30,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		soc.style.opacity = "0";
 	};
 
-			/*var audio = new Audio();
-			audio.src = "sound.mp3"
+	var audio = new Audio();
+	audio.src = "sound.mp3";
 	document.getElementById('sound_button').onmouseover= function() {
 		this.classList.toggle("on")
 		if (!document.getElementById('vol').classList.contains("off") && (this.classList.contains("on"))){
-
 			audio.play();
 		}
-		}*/
-		
+	}
+
 	//console.log(document.getElementById('vol'));
 	document.getElementById('vol').onclick = function(){
 		this.classList.toggle("off");
@@ -52,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			this.onmouseout = function(){
 				this.style.backgroundImage = "url(img/white_off.svg)";
 			}
-
+			audio.pause();
 			}
 		
 		else{
@@ -65,6 +64,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			}
 		}
 	}
-
 
 });
