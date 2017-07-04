@@ -60,23 +60,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		this.classList.toggle("off");
 
 		if (this.classList.contains("off")){
-			this.style.backgroundImage = "url(http://diamond-hit.ru/wp-content/themes/enfold/img/red_off.svg)"; //изменить путь 
+			this.style.backgroundImage = "url(img/red_off.svg)"; //изменить путь 
 			this.onmouseover = function(){
-				this.style.backgroundImage = "url(http://diamond-hit.ru/wp-content/themes/enfold/img/red_off.svg)";//изменить путь 
+				this.style.backgroundImage = "url(img/red_off.svg)";//изменить путь 
 			}
 			this.onmouseout = function(){
-				this.style.backgroundImage = "url(http://diamond-hit.ru/wp-content/themes/enfold/img/white_off.svg)";//изменить путь 
+				this.style.backgroundImage = "url(img/white_off.svg)";//изменить путь 
 			}
 			audio.pause();
 			}
 		
 		else{
-			this.style.backgroundImage = "url(http://diamond-hit.ru/wp-content/themes/enfold/img/red_on.svg)";//изменить путь 
+			this.style.backgroundImage = "url(img/red_on.svg)";//изменить путь 
 			this.onmouseover = function(){
-				this.style.backgroundImage = "url(http://diamond-hit.ru/wp-content/themes/enfold/img/red_on.svg)";//изменить путь 
+				this.style.backgroundImage = "url(img/red_on.svg)";//изменить путь 
 			}
 			this.onmouseout = function(){
-				this.style.backgroundImage = "url(http://diamond-hit.ru/wp-content/themes/enfold/img/white_on.svg)";//изменить путь 
+				this.style.backgroundImage = "url(img/white_on.svg)";//изменить путь 
 			}
 		}
 	}
