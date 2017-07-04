@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 </head>
 <body>
- <div id="sound_button">
-<audio>
+	 <div id='lang_and_sound_elem'>
+   <!--  <div id="sound_button">
+  <audio>
         <source src="sound.mp3"></source>
-       <!-- <source src="audio/beep.ogg"></source>-->
-</audio>Наведи курсор и услышишь звук (если он включен)</div>
-	<div class="wrapper">
+       
+</audio>Наведи курсор и услышишь звук (если он включен)</div>-->
+	<div class="wrapper"> 
 
 		<div class="aud">
 			<div class="sound">
@@ -17,9 +18,9 @@
 			</div>
 		</div>	
 
-		<div id="social">
-			<div class="G"><img src="img/share.svg" alt="share"></div>
-			<div id="socwrap" class= "hidden">
+		<div id="social_butt">
+			<div class="G"><img src="<?php echo get_template_directory_uri();?>/img/share.svg" alt="share"></div>
+			<div id="socwrap" class= "hiddeen">
 				<div class="lang"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 				<div class="lang"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
 				<div class="lang"><a href=""><i class="fa fa-vk" aria-hidden="true"></i></a></div>
@@ -28,14 +29,15 @@
 		</div>
 <div class="wrap2">
 		<div id="languages">
-			<div class="lang"><a href="#">Ru</a></div>
-			<div class="lang"><a href="#">En</a></div>
+			<div class="lang"><a href="#">rus</a></div>
+			<div class="lang"><a href="#">eng</a></div>
 		</div> 
 		</div>
 	</div>
+	</div>
 </body>
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animater.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
-<script src = "js.js" ></script>
+<script src = "animater.js" ></script>
 </html>
