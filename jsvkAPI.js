@@ -3,8 +3,12 @@ $(document).ready(function() {
 	$.ajax({
   	dataType: "json",
   	url: "vkAPIbd.json",
-  	success: function(result) {
-	console.log(result);
+  	success: function(data) {
+	console.log(data);
+	for(var key in data){
+		e += "<a href = "+data.key["src"]+">"+data.key["src"]+"</a>";
+	}
+	$( ".link" ).html(e);
   	}
 });
 
