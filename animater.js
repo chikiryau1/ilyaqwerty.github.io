@@ -24,27 +24,27 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	};
 
 	s.onmouseover = function(){
-	soc.style.transition = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
-	soc.style["-webkit-transition"] = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
-	soc.style["-moz-transition"] = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
-	soc.style["-ms-transition"] = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
-	soc.style["-o-transition"] = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
+		soc.style.transition = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
+		soc.style["-webkit-transition"] = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
+		soc.style["-moz-transition"] = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
+		soc.style["-ms-transition"] = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
+		soc.style["-o-transition"] = "width  0.5s  ease-out, opacity 0.3s ease-out, background 0.5s ease";
 	//soc.style.background = "#666";
 	soc.style.width = "180px";
 	soc.style.height = "32px";
 	soc.style.opacity = "1"
-	};
+};
 
-	s.onmouseout = function(){
-		soc.style.transition = "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
-		soc.style["-webkit-transition"]= "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
-		soc.style["-moz-transition"] = "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
-		soc.style["-ms-transition"] = "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
-		soc.style["-o-transition"]= "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
-		soc.style.background = "transparent";
-		soc.style.width = "0px";
-		soc.style.opacity = "0";
-	};
+s.onmouseout = function(){
+	soc.style.transition = "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
+	soc.style["-webkit-transition"]= "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
+	soc.style["-moz-transition"] = "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
+	soc.style["-ms-transition"] = "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
+	soc.style["-o-transition"]= "width  0.5s  ease-out, opacity 0.5s ease-out, background 0.5s ease";
+	soc.style.background = "transparent";
+	soc.style.width = "0px";
+	soc.style.opacity = "0";
+};
 
 	/*var audio = new Audio();
 	audio.src = "sound.mp3";
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				this.style.backgroundImage = "url(img/white_off.svg)";//изменить путь 
 			}
 			audio.pause();
-			}
+		}
 		
 		else{
 			this.style.backgroundImage = "url(img/red_on.svg)";//изменить путь 
