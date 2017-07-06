@@ -3,8 +3,8 @@ $(document).ready(function() {
 	$.ajax({
   	dataType: "json",
   	url: "vkAPIbd.json",
-  	success: function() {
-	console.log(e);
+  	success: function(result) {
+	console.log(result);
   	}
 });
 
