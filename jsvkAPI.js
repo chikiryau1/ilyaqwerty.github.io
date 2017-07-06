@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var e = "";
 	$.ajax({
-	type: GET,
+	type: "GET",
 	
   	dataType: "json",
   	url: "https://api.vk.com/method/photos.get?owner_id=-55438333&album_id=wall&count=1000",
