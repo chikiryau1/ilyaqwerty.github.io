@@ -6,7 +6,7 @@ $(document).ready(function() {
   	success: function(data) {
 	console.log(data);
 		for(var key in data.response){
-			e += "<img src = "+data.response[key]["src"]+">"+data.response[key]["src"] + ">";
+			e += "<img src = "+data.response[key]["src"]+">";
 			}
 	$( ".link" ).html(e);
   	}
