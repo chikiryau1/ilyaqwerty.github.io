@@ -77,8 +77,9 @@ background-color: #333
 	float: right;
 	height:32px
 }
-.G img{
+.G svg{
 	width: 30px;
+	fill: skyblue;
 }
 #socwrap::after{
 	content: "";
@@ -108,9 +109,7 @@ background-color: #333
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.sound svg{
-	fill: #00ff00
-}
+
 .sound button:hover{
 	background-image: url(../img/red_on.svg);
 }
